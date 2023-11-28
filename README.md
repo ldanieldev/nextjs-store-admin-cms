@@ -1,5 +1,7 @@
 # A Full Stack E-Commerce CMS using NextJS 14, TailwindCss, Prisma, Stripe, & MySQL
 
+##Demo URL: [https://nextjs-store-admin-cms.vercel.app/](https://nextjs-store-admin-cms.vercel.app/)
+
 Key Features:
 
 - Ability to stand-up multiple stores through this single CMS (For example you can create a Shoe store, a Clothing store and an Electronics store, and the CMS will generate API routes for each individually)
@@ -14,4 +16,6 @@ Key Features:
 - Built-in security where users can only access their own store entities & assets.
 - [Stripe](https://stripe.com/) checkout & webhooks
 - Database integration via MySQL + [Prisma](https://www.prisma.io/) + [PlanetScale](https://planetscale.com/)
-- UI layout via [ShadCn](https://ui.shadcn.com/)
+- UI layout components via [ShadCn](https://ui.shadcn.com/)
+- State management via [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
+- Image Cloud CDN integration via [Cloudinary](https://cloudinary)
