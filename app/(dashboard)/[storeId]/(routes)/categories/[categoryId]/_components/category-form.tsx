@@ -75,8 +75,8 @@ export default function CategoryForm({ initialData, billboards }: props) {
           body: JSON.stringify(data)
         });
       }
-      router.refresh();
       router.push(`/${params.storeId}/categories`);
+      router.refresh();
       toast.success(toastMsg);
     } catch (error: any) {
       toast.error('Something went wrong.Please try again later.');
@@ -92,8 +92,8 @@ export default function CategoryForm({ initialData, billboards }: props) {
         method: 'DELETE'
       });
 
-      router.refresh();
       router.push(`/${params.storeId}/categories`);
+      router.refresh();
       toast.success('Category deleted.');
     } catch (error: any) {
       toast.error(

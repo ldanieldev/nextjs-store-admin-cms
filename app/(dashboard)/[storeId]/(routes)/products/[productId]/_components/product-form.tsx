@@ -101,8 +101,8 @@ export default function ProductForm({
         });
       }
 
-      router.refresh();
       router.push(`/${params.storeId}/products`);
+      router.refresh();
       toast.success(toastMsg);
     } catch (error) {
       toast.error('Something went wrong.Please try again later.');
@@ -119,8 +119,8 @@ export default function ProductForm({
         method: 'DELETE'
       });
 
-      router.refresh();
       router.push(`/${params.storeId}/products`);
+      router.refresh();
       toast.success('Product deleted.');
     } catch (error) {
       toast.error('Something went wrong.Please try again later.');

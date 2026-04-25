@@ -70,8 +70,8 @@ export default function BillboardForm({ initialData }: props) {
         });
       }
 
-      router.refresh();
       router.push(`/${params.storeId}/billboards`);
+      router.refresh();
       toast.success(toastMsg);
     } catch (error) {
       toast.error('Something went wrong.Please try again later.t');
@@ -88,8 +88,8 @@ export default function BillboardForm({ initialData }: props) {
         method: 'DELETE'
       });
 
-      router.refresh();
       router.push(`/${params.storeId}/billboards`);
+      router.refresh();
       toast.success('Billboard deleted.');
     } catch (error) {
       toast.error(

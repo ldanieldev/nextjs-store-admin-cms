@@ -69,8 +69,8 @@ export default function SizeForm({ initialData }: props) {
         });
       }
 
-      router.refresh();
       router.push(`/${params.storeId}/sizes`);
+      router.refresh();
       toast.success(toastMsg);
     } catch (error) {
       toast.error('Something went wrong.Please try again later.');
@@ -87,8 +87,8 @@ export default function SizeForm({ initialData }: props) {
         method: 'DELETE'
       });
 
-      router.refresh();
       router.push(`/${params.storeId}/sizes`);
+      router.refresh();
       toast.success('Size deleted.');
     } catch (error) {
       toast.error(

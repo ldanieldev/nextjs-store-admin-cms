@@ -73,8 +73,8 @@ export default function SettingsForm({ initialData }: props) {
         method: 'DELETE'
       });
 
-      router.refresh();
       router.push('/');
+      router.refresh();
       toast.success('Store deleted.');
     } catch (error) {
       toast.error(
