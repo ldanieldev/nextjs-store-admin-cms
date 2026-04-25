@@ -15,7 +15,7 @@ Key Features:
 - User authentication via [Clerk Authentication](https://clerk.com/)
 - Built-in security where users can only access their own store entities & assets.
 - [Stripe](https://stripe.com/) checkout & webhooks
-- Database integration via MySQL + [Prisma](https://www.prisma.io/) + [PlanetScale](https://planetscale.com/)
+- Database integration via POSTGRES + [Prisma](https://www.prisma.io/) + [Neon](https://neon.tech/)
 - UI layout components via [ShadCn](https://ui.shadcn.com/)
 - State management via [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 - Image Cloud CDN integration via [Cloudinary](https://cloudinary.com)
